@@ -1,0 +1,93 @@
+body {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(222, 26%, 31%);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 32px;
+}
+
+.main {
+    width: 30%;
+    height: 500px;
+    margin-top: 6%;
+    margin-left: 33%;
+}
+
+.calc {
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+}
+
+.output {
+    width: 98%;
+}
+
+.grid-container {
+    display: grid;
+    background-color: hsl(223, 31%, 20%);
+    height: 350px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1%;
+    row-gap: 5%;
+    padding: 5% 0% 5% 5%;
+    margin-top: 3%;
+}
+
+.grid-container button {
+    background-color: hsl(225, 21%, 49%);
+    color: white;
+    border-radius: 10px;
+    width: 80%;
+    height: 100%;
+    font-weight: 600;
+    background-color: hsl(30, 25%, 89%);
+    box-shadow: hsl(28, 16%, 65%);
+    color: hsl(221, 14%, 31%);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.reset {
+    margin-left: 10%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.equals {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    margin-right: 10%;
+}
+
+button:hover {
+    color: black;
+    background-color: peachpuff;
+    cursor: pointer;
+}
+
+.reset {
+    width: 50%;
+}
+
+.equals {
+    width: 50%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.output {
+    background-color: hsl(224, 36%, 15%);
+    border-color: transparent;
+    height: 20%;
+    margin-bottom: 0%;
+}
