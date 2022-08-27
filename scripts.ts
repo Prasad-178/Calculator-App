@@ -33,6 +33,7 @@ function displayOutput() {
 function resetValues() {
     expr = "";
     $(".output").val("");
+    flag = 0;
 }
 
 function deleteLast() {

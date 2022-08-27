@@ -4,7 +4,7 @@ body {
     justify-content: center;
     background-color: hsl(222, 26%, 31%);
     font-family: 'DM Sans', sans-serif;
-    font-size: 32px;
+    font-size: 30px;
 }
 
 .main {
@@ -30,19 +30,13 @@ body {
     margin-top: 8px;
     margin-right: 0px;
     background-color: hsl(223, 31%, 20%);
-    color: hsl(6, 63%, 50%);
+    color: magenta;
     box-shadow: hsl(28, 16%, 65%);
     border: none;
     border-radius: 10px;
     width: 30%;
     font-weight: 700;
-}
-
-.init button {
     cursor: pointer;
-}
-
-.changetheme {
     float: inline-end;
 }
 
@@ -50,6 +44,7 @@ body {
     width: 94%;
     color: white;
     padding-right: 5%;
+    border-radius: 15px;
     text-align:right;
     font-size: 36px;
     font-weight: 700;
@@ -64,6 +59,7 @@ body {
     row-gap: 5%;
     padding: 5% 0% 5% 5%;
     margin-top: 3%;
+    border-radius: 15px;
 }
 
 .grid-container button {
@@ -114,3 +110,131 @@ input[type=number] {
     height: 20%;
     margin-bottom: 0%;
 }
+
+@media screen and (max-width:1311px) {
+    .main {
+        width: 400px;
+        margin-left: 31%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .main {
+        margin-left: 28%;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .main {
+        margin-left: 22%;
+    }
+}
+
+@media screen and (max-width:695px) {
+    .main {
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .main {
+        margin-left: 18%;
+    }
+}
+
+@media screen and (max-width:625px) {
+    .main {
+        margin-left: 16%;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .main {
+        margin-left: 14%;
+    }
+}
+
+@media screen and (max-width:515px) {
+    .main {
+        margin-left: 12%;
+    }
+}
+
+@media screen and (max-width:490px) {
+    .main {
+        margin-left: 8%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .main {
+        margin-left: 4%;
+    }
+}
+
+@media screen and (max-width:435px) {
+    .main {
+        width: 400px;
+        margin-left: 3%;
+    }
+}
+
+@media screen and (max-width:415px) {
+    .main {
+        margin-left: 2px;
+    }
+}
+
+@media screen and (max-width:405px) {
+    .main {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .main {
+        width: 380px;
+        margin-left: 2%;
+    }
+    .changetheme {
+       font-size: 20px;
+       font-weight: 600;
+       min-width: 40%;
+    }
+}
+
+@media screen and (max-width:388px) {
+    .main {
+        margin-left: 1%;
+    }
+}
+
+@media screen and (max-width:384px) {
+    .main {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .main {
+        width: 370px;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .main {
+        width: 360px;
+        margin-left: 1%;
+    }
+}
+
+@media screen and (max-width:365px) {
+    .main {
+        margin-left: 0;
+    }
+}
+
+/* .theme2 {
+
+} */
+
