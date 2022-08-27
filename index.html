@@ -21,36 +21,36 @@
 <body>
   <div class="main">
     <div class="init">
-      <p class="calc">calc</p>
+      <p class="calc">calc <button class="changetheme">Theme 1</button></p>
     </div>
-    <input type="number" class="output" autocomplete="off" readonly>
+    <input type="text" class="output" autocomplete="off" readonly>
     <div class="grid-container">
-      <button class="seven grid-item">7</button>
-      <button class="eight grid-item">8</button>
-      <button class="nine grid-item">9</button>
-      <button class="del grid-item">DEL</button>
-      <button class="four grid-item">4</button>
-      <button class="five grid-item">5</button>
-      <button class="six grid-item">6</button>
-      <button class="plus grid-item">+</button>
-      <button class="one grid-item">1</button>
-      <button class="two grid-item">2</button>
-      <button class="three grid-item">3</button>
-      <button class="minus grid-item">-</button>
-      <button class="dot grid-item">.</button>
-      <button class="zero grid-item">0</button>
-      <button class="divide grid-item">/</button>
-      <button class="mult grid-item">x</button>
-      <button class="reset grid-item">RESET</button>
-      <button class="equals grid-item">=</button>
+      <button class="seven grid-item" onclick="input('7')">7</button>
+      <button class="eight grid-item" onclick="input('8')">8</button>
+      <button class="nine grid-item" onclick="input('9')">9</button>
+      <button class="del grid-item" onclick="deleteLast()">DEL</button>
+      <button class="four grid-item" onclick="input('4')">4</button>
+      <button class="five grid-item" onclick="input('5')">5</button>
+      <button class="six grid-item" onclick="input('6')">6</button>
+      <button class="plus grid-item" onclick="input('+')">+</button>
+      <button class="one grid-item" onclick="input('1')">1</button>
+      <button class="two grid-item" onclick="input('2')">2</button>
+      <button class="three grid-item" onclick="input('3')">3</button>
+      <button class="minus grid-item" onclick="input('-')">-</button>
+      <button class="dot grid-item" onclick="input('.')">.</button>
+      <button class="zero grid-item" onclick="input('0')">0</button>
+      <button class="divide grid-item" onclick="input('/')">/</button>
+      <button class="mult grid-item" onclick="input('*')">x</button>
+      <button class="reset grid-item" onclick="resetValues()">RESET</button>
+      <button class="equals grid-item" onclick="displayOutput()">=</button>
     </div>
   </div>
 
-  
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="scripts.js"></script>
 </body>
 </html>
